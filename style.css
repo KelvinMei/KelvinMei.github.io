@@ -1,0 +1,15 @@
+body {
+    background-color: #552583;
+}
+
+header {
+    background-color: white;
+}
+
+.logo {
+    width: 100px;
+}
+
+.profile {
+    width: 300px;
+}
