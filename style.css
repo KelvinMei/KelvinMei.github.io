@@ -17,8 +17,8 @@ body {
 }
 
 .logo {
-  width: 100px;
-  float: left;
+  width: 4%;
+  margin-left: 0px;
 }
 
 .nav-right {
@@ -40,6 +40,13 @@ body {
   margin-right: auto;
   width: 50%;
   border: 2px solid black;
+}
+
+.brand {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .leftpic {
@@ -162,4 +169,12 @@ ul {
 
 p {
   font-family: Georgia, serif;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: block;
+  width: 50%;
 }
