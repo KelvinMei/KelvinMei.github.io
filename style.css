@@ -1,15 +1,165 @@
-body {
-    background-color: #552583;
+a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-header {
-    background-color: white;
+a:hover {
+  background-color: #fdb927;
+  color: black;
+}
+
+body {
+  margin: 0px;
+  background-color: #552583;
 }
 
 .logo {
-    width: 100px;
+  width: 100px;
+  float: left;
+}
+
+.nav-right {
+  border: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+  width: 100px;
+  overflow: hidden;
+  position: flex;
+  right: 0;
+  color: #552583;
+  font-family: Georgia, serif;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 2px solid black;
+}
+
+.leftpic {
+  width: 100%;
 }
 
 .profile {
-    width: 300px;
+  width: 100%;
+}
+
+header {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+lside {
+  background-color: #552583;
+  grid-area: nav;
+  margin-left: 0.5rem;
+}
+
+main {
+  grid-area: content;
+}
+
+rside {
+  background-color: #552583;
+  grid-area: side;
+  margin-right: 0.5rem;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.container {
+  background-color: #552583;
+  display: grid;
+
+  grid-template-areas:
+    "header header header"
+    "nav content side"
+    "footer footer footer";
+
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+
+  height: 100vh;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  background-color: white;
+  width: 70%;
+  border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+table,
+th,
+td {
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: #fdb927;
+}
+
+th {
+  background-color: #fdb927;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h1 {
+  background-color: #fdb927;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 20px;
+  color: #552583;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.content {
+  background-color: #fdb927;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid black;
+}
+
+.shoecontent {
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-family: Georgia, serif;
 }
