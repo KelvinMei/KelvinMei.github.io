@@ -147,8 +147,7 @@ h1 {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 1px;
   border: 2px solid black;
 }
 
@@ -169,6 +168,8 @@ ul {
 
 p {
   font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 img {
